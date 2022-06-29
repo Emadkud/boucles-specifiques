@@ -28,8 +28,8 @@
 // //   { firstName: "John", lastName: "Smith" },
 // // ];
 
-// // const shortNames = longNames.map((longNames) => {
-// //   return {name:`${longNames.firstName} ${longNames.lastName}`}
+// // const shortNames = longNames.map((longName) => {
+// //   return {name:`${longName.firstName} ${longNames.lastName}`}
 // // });
 // // console.log(shortNames)
 // //
@@ -39,7 +39,7 @@
 // // // - Affichez le tableau `numbers` qui doit contenir que des nombres
 
 // // const array = [ 1,"toto",34 ,"javascript" ,8]
-// // const numbers = array.filter((number, i) => {
+// // const numbers = array.filter((number) => {
 // //     return typeof number === "number"
 
 // // })
@@ -57,7 +57,7 @@
 // // // - Affichez les valeurs de `even` dans la console
 
 // // const  numbers = ["1","2","3","4","5","6","7","8"]
-// // const  even = numbers.filter((number,i) => {
+// // const  even = numbers.filter((number) => {
 // //     return number % 2 === 0
 // // })
 
@@ -103,7 +103,7 @@
     
 
 // // })
-// // .map((cake) => {
+// //     .map((cake) => {
 // //     cake.status = "soldOut"
 // //     return cake
 // // })
@@ -150,7 +150,7 @@
 // ];
 
 
-// const pie = cakes.find( (cake , i) => {
+// const pie = cakes.find( (cake) => {
     
 //     return cake.name === "pie"
 
@@ -165,10 +165,27 @@
 // A l’aide d’une boucle forEach, calculer la factorielle de `9`
 
 
+// const numbers = [1,2,3,4,5,6,7,8,9]
+
+// let result = 1
+
+// numbers.forEach(number => {
+    
+//    result = result * number
+// })
+
+// console.log(result)
 
 
 
 
+
+// ## 08 - Chess board
+
+// À l’aide de deux boucles forEach, dessiner dans la console un plateau de jeu d’échecs
+
+
+ 
 
 
 
